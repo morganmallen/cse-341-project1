@@ -29,6 +29,7 @@ const createContact = async (req, res) => {
   const contact = {
     firstName: req.body.firstName,
     lastName: req.body.lastName,
+    email: req.body.email,
     favoriteColor: req.body.favoriteColor,
     birthday: req.body.birthday,
   };
@@ -54,6 +55,7 @@ const updateContact = async (req, res) => {
   const contact = {
     firstName: req.body.firstName,
     lastName: req.body.lastName,
+    email: req.body.email,
     favoriteColor: req.body.favoriteColor,
     birthday: req.body.birthday,
   };

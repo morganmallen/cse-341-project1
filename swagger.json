@@ -5,9 +5,10 @@
     "description": "Contacts Api",
     "version": "1.0.0"
   },
-  "host": "cse-341-project1-0ogo.onrender.com",
+  "host": "localhost:3000",
   "basePath": "/",
   "schemes": [
+    "http",
     "https"
   ],
   "paths": {
@@ -51,6 +52,9 @@
                   "example": "any"
                 },
                 "lastName": {
+                  "example": "any"
+                },
+                "email": {
                   "example": "any"
                 },
                 "favoriteColor": {
@@ -114,6 +118,9 @@
                   "example": "any"
                 },
                 "lastName": {
+                  "example": "any"
+                },
+                "email": {
                   "example": "any"
                 },
                 "favoriteColor": {
